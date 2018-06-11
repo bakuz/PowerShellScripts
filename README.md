@@ -27,7 +27,7 @@ This script is used for convert all png files in a folder and its subfolders to 
 
 - ### removeItemsByExtension
 #### Requirement
-Google libraries. You can get it from: https://developers.google.com/speed/webp/download
+None.
 #### Description
 This script is used for remove all files in a folder and its subfolders gived a file extention.
 #### Parameters

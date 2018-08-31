@@ -7,7 +7,7 @@ This repository have some scripts used in some batch tasks over windows.
 ## Scripts
 This section contains the description and the use for each respective script.
 
-### webtoPng
+### webToPng
 #### Requirement
 Google libraries. You can get it from: <https://developers.google.com/speed/webp/download>. Don't forget to setting the enviromental variables.
 #### Description
@@ -15,8 +15,9 @@ This script is used for convert all webp files in a folder and its subfolders to
 #### Parameters
 - folder
 #### Example of Use
-- PS > .\webToPng [folder]
-
+```cmd
+PS > .\webToPng [folder]
+```
 ### pngToWebp
 #### Requirement
 Google libraries. You can get it from: <https://developers.google.com/speed/webp/download>. Don't forget to setting the enviromental variables.
@@ -25,8 +26,9 @@ This script is used for convert all png files in a folder and its subfolders to 
 #### Parameters
 - folder
 #### Example of Use
-- PS > .\pngToWebp [folder]
-
+```powershell
+PS .\pngToWebp [folder]
+```
 ### removeItemsByExtension
 #### Requirement
 None.
@@ -36,5 +38,7 @@ This script is used for remove all files in a folder and its subfolders given a 
 - folder
 - file extension
 #### Example of Use
-- PS > .\removeItemsByExtension [folder] [file extension]
+```
+PS > .\removeItemsByExtension [folder] [file extension]
+```
 

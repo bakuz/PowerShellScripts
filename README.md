@@ -15,8 +15,8 @@ This script is used for convert all webp files in a folder and its subfolders to
 #### Parameters
 - folder
 #### Example of Use
-```cmd
-PS > .\webToPng [folder]
+```powershell
+PS .\webToPng [folder]
 ```
 ### pngToWebp
 #### Requirement
@@ -38,7 +38,7 @@ This script is used for remove all files in a folder and its subfolders given a 
 - folder
 - file extension
 #### Example of Use
-```
-PS > .\removeItemsByExtension [folder] [file extension]
+```powershell
+PS .\removeItemsByExtension [folder] [file extension]
 ```
 

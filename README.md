@@ -53,3 +53,35 @@ This script is used for remove all files in a folder and its subfolders given a 
 PS .\removeItemsByExtension [folder] [file extension]
 ```
 
+### pingToIPList
+#### Requirement
+Plain Text File with ip list separated by new line character.
+
+#### Description
+This script is used for ping to ip list from text file.
+
+#### Parameters
+- file
+
+#### Example of Use
+```powershell
+PS .\pingToIPList [file]
+```
+
+### telnetTest
+#### Requirement
+Plain Text File with ip list separated by new line character.
+
+#### Description
+This script is used for test telnet form a ip list to a specific port user as parameters.
+
+#### Parameters
+- file 
+- port 
+- timeout (optional)
+
+#### Example of Use
+```powershell
+PS .\telnetTest [file] [port] [timeout]
+```
+

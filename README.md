@@ -1,5 +1,5 @@
 # Power Shell Scripts
-This repository have some scripts used in some batch tasks over windows.
+This repository have scripts used in some batch tasks over Windows OS with Power Shell.
 
 ## Requirements
 - PowerShell v3
@@ -9,7 +9,7 @@ This section contains the description and the use for each respective script.
 
 ### webToPng
 #### Requirement
-Google libraries. You can get it from: <https://developers.google.com/speed/webp/download>. Don't forget to setting the enviromental variables.
+Google libraries. You can get it from: <https://developers.google.com/speed/webp/download>. Don't forget to set the enviromental variables.
 
 #### Description
 This script is used for convert all webp files in a folder and its subfolders to png format.
@@ -24,7 +24,7 @@ PS .\webToPng [folder]
 
 ### pngToWebp
 #### Requirement
-Google libraries. You can get it from: <https://developers.google.com/speed/webp/download>. Don't forget to setting the enviromental variables.
+Google libraries. You can get it from: <https://developers.google.com/speed/webp/download>. Don't forget to set the enviromental variables.
 
 #### Description
 This script is used for convert all png files in a folder and its subfolders to webp format.
@@ -42,7 +42,7 @@ PS .\pngToWebp [folder]
 None.
 
 #### Description
-This script is used for remove all files in a folder and its subfolders given a file extention.
+This script is used for remove all files in the specified folder and its subfolders given a file extension.
 
 #### Parameters
 - folder
